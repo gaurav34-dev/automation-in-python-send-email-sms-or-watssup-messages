@@ -4,7 +4,7 @@
 # In[1]:
 
 
-#Your new Phone Number is +12018904454
+#Your new Phone Number is +xxxxxxxxxxxxxxxxx
 import twilio
 
 
@@ -18,8 +18,8 @@ client = Client(account_sid, auth_token)
 
 message = client.messages.create(
          body='hi mummy this gaurav urrf govinda',
-         from_='+12018904454',
-         to='+918989807743'
+         from_='zzzzzzzzzzzzzz',
+         to='xxxxxxxxxxxxxxxxxx'
      )
 
 print(message.sid)
@@ -29,13 +29,13 @@ print(message.sid)
 
 
 from twilio.rest import Client
-account_sid = 'ACa1cb7a5d118701df3f4c0ffc53b7c42f'
-auth_token = 'e6921c51150461fc1dcae06526cfd4dc'
+account_sid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+auth_token = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
          body='hi mummy this gaurav urrf govinda',
-         from_='+12018904454',
+         from_='zzzzzzzzzzzzzzzz',
          to='+xxxxxxxxxxxxxxxxx'
      )
 
@@ -46,13 +46,13 @@ print(message.sid)
 
 
 from twilio.rest import Client
-account_sid = 'ACa1cb7a5d118701df3f4c0ffc53b7c42f'
-auth_token = 'e6921c51150461fc1dcae06526cfd4dc'
+account_sid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+auth_token = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
          body='hi mummy this gaurav urrf govinda',
-         from_='+12018904454',
+         from_='zzzzzzzzzzzzzzz',
          to='+xxxxxxxxxxxxxxxxx'       #my mobile number
      )
 
